@@ -1,4 +1,5 @@
 /*! tailwindcss v4.2.4 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -7,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --spacing: 0.25rem;
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -162,5 +164,167 @@
 @layer utilities {
   .start {
     inset-inline-start: var(--spacing);
+  }
+  .m-auto {
+    margin: auto;
+  }
+  .ml-\[40px\] {
+    margin-left: 40px;
+  }
+  .flex {
+    display: flex;
+  }
+  .h-\[30px\] {
+    height: 30px;
+  }
+  .h-\[40px\] {
+    height: 40px;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .w-\[120px\] {
+    width: 120px;
+  }
+  .w-\[150px\] {
+    width: 150px;
+  }
+  .w-\[180px\] {
+    width: 180px;
+  }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[550px\] {
+    width: 550px;
+  }
+  .w-\[600px\] {
+    width: 600px;
+  }
+  .max-w-\[1200px\] {
+    max-width: 1200px;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
+  .gap-\[50px\] {
+    gap: 50px;
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .bg-\[\#000000\] {
+    background-color: #000000;
+  }
+  .bg-\[\#1b1a1a\] {
+    background-color: #1b1a1a;
+  }
+  .bg-\[\#3d3b3b\] {
+    background-color: #3d3b3b;
+  }
+  .bg-\[\#302f2f\] {
+    background-color: #302f2f;
+  }
+  .bg-\[\#524f4f\] {
+    background-color: #524f4f;
+  }
+  .bg-\[\#121111\] {
+    background-color: #121111;
+  }
+  .bg-\[\#262525\] {
+    background-color: #262525;
+  }
+  .bg-\[\#F72585\] {
+    background-color: #F72585;
+  }
+  .bg-\[\#FFF5F9\] {
+    background-color: #FFF5F9;
+  }
+  .bg-\[wh\] {
+    background-color: wh;
+  }
+  .p-\[8px\] {
+    padding: 8px;
+  }
+  .p-\[10px\] {
+    padding: 10px;
+  }
+  .p-\[20px\] {
+    padding: 20px;
+  }
+  .p-\[px\] {
+    padding: px;
+  }
+  .text-\[30px\] {
+    font-size: 30px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#1C3554\] {
+    color: #1C3554;
+  }
+  .text-\[\#808080\] {
+    color: #808080;
+  }
+  .text-\[\#F72585\] {
+    color: #F72585;
+  }
+  .text-\[white\] {
+    color: white;
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+    }
   }
 }
