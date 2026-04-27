@@ -285,6 +285,15 @@
   .h-\[530px\] {
     height: 530px;
   }
+  .h-\[550px\] {
+    height: 550px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
   .w-\[4\] {
     width: 4;
   }
@@ -470,6 +479,9 @@
   .bg-\[\#000000\] {
     background-color: #000000;
   }
+  .bg-\[\#021934\] {
+    background-color: #021934;
+  }
   .bg-\[\#CCCCCC\] {
     background-color: #CCCCCC;
   }
@@ -499,6 +511,15 @@
   }
   .p-10 {
     padding: calc(var(--spacing) * 10);
+  }
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
+  }
+  .p-40 {
+    padding: calc(var(--spacing) * 40);
+  }
+  .p-60 {
+    padding: calc(var(--spacing) * 60);
   }
   .text-\[15px\] {
     font-size: 15px;
