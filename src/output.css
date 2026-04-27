@@ -180,6 +180,9 @@
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
   }
+  .mt-35 {
+    margin-top: calc(var(--spacing) * 35);
+  }
   .mt-\[-50\] {
     margin-top: -50;
   }
@@ -294,6 +297,9 @@
   .w-\[200px\] {
     width: 200px;
   }
+  .w-\[220px\] {
+    width: 220px;
+  }
   .w-\[240px\] {
     width: 240px;
   }
@@ -345,6 +351,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-0 {
+    gap: calc(var(--spacing) * 0);
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -383,6 +392,15 @@
   }
   .gap-155 {
     gap: calc(var(--spacing) * 155);
+  }
+  .gap-175 {
+    gap: calc(var(--spacing) * 175);
+  }
+  .gap-180 {
+    gap: calc(var(--spacing) * 180);
+  }
+  .gap-190 {
+    gap: calc(var(--spacing) * 190);
   }
   .gap-200 {
     gap: calc(var(--spacing) * 200);
@@ -445,6 +463,9 @@
   }
   .bg-\[\#F72585\] {
     background-color: #F72585;
+  }
+  .bg-\[\#FFF5F9\] {
+    background-color: #FFF5F9;
   }
   .bg-\[gray\] {
     background-color: gray;
