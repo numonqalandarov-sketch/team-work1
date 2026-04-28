@@ -295,6 +295,9 @@
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
@@ -377,11 +380,17 @@
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+  .flex-col {
+    flex-direction: column;
+  }
   .flex-wrap {
     flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
   }
   .justify-between {
     justify-content: space-between;
@@ -606,6 +615,9 @@
   }
   .text-\[\#1e2e4d\] {
     color: #1e2e4d;
+  }
+  .text-\[\#ff2d81\] {
+    color: #ff2d81;
   }
   .text-gray-300 {
     color: var(--color-gray-300);
